@@ -1,0 +1,6 @@
+FROM almalinux:9
+LABEL COURSE="docker" \
+      DURATION="1 week" \
+      CLOUD="aws"
+EXPOSE 80 8080
+CMD ["sleep","1000"]
