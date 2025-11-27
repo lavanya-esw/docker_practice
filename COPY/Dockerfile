@@ -1,3 +1,3 @@
 FROM almalinux:9
-COPY ./file /tmp/
+COPY ../CMD/file /tmp/
 CMD ["sleep","1000"]
